@@ -1,0 +1,39 @@
+let num1 = prompt("Enter the any Number : ");
+let rem = 0;
+let sum = 0;
+let isPrime = true;
+
+function prime(num1) {
+    for(let i = 2; i < num1; i++) {
+           let output = num1 % i;
+
+           if(output == 0) {
+              isPrime = false;
+              break;
+            }
+     }
+}
+
+function palindrome(num1) {
+     while( num1 > 0) {
+            rem = num1 % 10;
+            sum = (sum * 10) + rem;
+            num1 = parseInt(num1 / 10);
+     }
+     if(num1 == sum) {
+             console.log("Number is Palindrome");
+     }
+     else {
+             console.log("Number is not Palindrome");
+     }
+}
+prime(num1);
+if(isPrime)
+  {
+    console.log("Number is a Prime Number");
+    palindrome(num1);
+  }
+else
+  {
+    console.log("Number is not a Prime Number");
+  }

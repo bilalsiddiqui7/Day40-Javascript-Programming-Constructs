@@ -1,0 +1,14 @@
+let first=Math.floor(Math.random() * 90)+10;
+console.log(first);
+let second=Math.floor(Math.random() * 90)+10;
+console.log(second);
+let third=Math.floor(Math.random() * 90)+10;
+console.log(third);
+let forth=Math.floor(Math.random() * 90)+10;
+console.log(forth);
+let fifth=Math.floor(Math.random() * 90)+10;
+console.log(fifth);
+sum=first+second+third+forth+fifth;
+console.log("Sum is :"+sum);
+avg=sum/5;
+console.log("Avg is :"+avg);

@@ -1,0 +1,5 @@
+let n = prompt("Enter the number: ");
+for(let i=1;i<n;i++)
+  {
+    console.log(2*i);
+  }

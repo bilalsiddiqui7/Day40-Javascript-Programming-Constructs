@@ -1,0 +1,14 @@
+let n = prompt("Enter any number less than 256");
+let i=0;
+while(i<n)
+  {
+    if(n<256)
+      {
+        console.log(2*i);
+        i++;
+      }
+    else
+      {
+        console.log("Invalid Input");
+      }
+  }

@@ -1,0 +1,10 @@
+console.log("1 ft = 12 in");
+inch=42/12;
+console.log(inch);
+
+console.log("Plot is 60*40 in feet");
+let length=60*.305;
+let breadth=40*.305;
+console.log("Plot is "+length+" * "+breadth+" in metres");
+
+console.log("Area of 25 such plots in acres is :"+((length*breadth)*0.000247)*25);

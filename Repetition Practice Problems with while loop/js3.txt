@@ -1,0 +1,27 @@
+let HEADS = 1;
+let TAILS = 0;
+let h = 0;
+let t = 0;
+let numb = prompt("Enter the number of times you want to flip the coin: ");
+let i = 0;
+while(i < numb) 
+{
+ i++;
+ let flip = Math.floor(Math.random() *10 % 2);
+ if( flip == 1) {
+     h = HEADS++;
+     console.log("HEADS");
+  }
+  else {
+     t = TAILS++;
+     console.log("TAILS");
+  }
+  if(h == 11) {
+   console.log("HEADS appeared 11 times First");
+   break;
+  }
+  else if(t == 11) {
+   console.log("TAILS appeared 11 times First");
+   break;
+  }
+}

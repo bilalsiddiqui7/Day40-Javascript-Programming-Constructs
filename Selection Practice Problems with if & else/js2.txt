@@ -1,0 +1,10 @@
+let date=prompt("Enter a date");
+console.log(date);
+let month=prompt("Enter a month");
+console.log(month);
+if (month <= 6 && date <= 20)
+        console.log("True");
+else if ((month >= 3 && month < 6) && date<31)
+        console.log("True");
+else
+        console.log("False");

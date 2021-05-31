@@ -1,0 +1,8 @@
+let num1=prompt("Enter the number in feet");
+console.log(num1*12+" inch")
+let num2=prompt("Enter the number in feet");
+console.log(num2*0.3048+" meter")
+let num3=prompt("Enter the number in inch");
+console.log(num3/12+" feet")
+let num4=prompt("Enter the number in meter");
+console.log(num4/0.3048+" feet")
